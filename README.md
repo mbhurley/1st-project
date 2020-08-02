@@ -132,7 +132,7 @@ Login to the Jumpbox Server
 -sudo docker run -ti <docker username>/ <password> 
 Select any docker names listed by running this command , sudo docker container list -a
 
-sudo docker start docker-container-name-from-above
+sudo docker start docker-container-name
 
-sudo docker attach docker-container-name-from-above
+sudo docker attach docker-container-name
 
